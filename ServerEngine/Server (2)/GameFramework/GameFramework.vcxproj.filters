@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{525312db-8c19-4b96-8a5a-34e623389f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{33d26bfd-d314-441b-9e6f-931789c6f933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{c042f312-6f9d-4056-9a2e-5a016b465906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SpriteManager">
+      <UniqueIdentifier>{687f706d-061b-4a3d-b1a3-47e4f4a9e7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TextureManager">
+      <UniqueIdentifier>{1ffd3d12-9eea-4e6a-b9da-25433c5d9687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ISceneNode">
+      <UniqueIdentifier>{e103664b-02d2-42b6-b212-9ce8543eb647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputManager">
+      <UniqueIdentifier>{706acb94-2229-46af-9e41-a991006959cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Function">
+      <UniqueIdentifier>{eadf6951-8b5b-43c8-93cc-90c18fe1564f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Console">
+      <UniqueIdentifier>{a7b0c703-bc6f-471f-b018-ffe5d13783f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Application">
+      <UniqueIdentifier>{8cd4bddb-1693-4516-864a-9a36cd89d16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation">
+      <UniqueIdentifier>{e379b1fd-8bdc-4f34-be99-baa6256363ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GUIButton">
+      <UniqueIdentifier>{c9685d4f-e44f-4dd5-9706-7a6f0fd61207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Font">
+      <UniqueIdentifier>{46ed36a0-cb14-4632-956a-f8c3e762da19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Cusor">
+      <UniqueIdentifier>{f6cd78ed-7216-42ac-90b9-05f5d5b1e68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\EditText">
+      <UniqueIdentifier>{bc833bb4-9c87-4a81-87bb-f05a049084dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{5176a937-0ee7-4b82-9666-31abfd9363ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Drag">
+      <UniqueIdentifier>{5e6f515d-65e0-4405-ad40-89601b6f53fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Wheel">
+      <UniqueIdentifier>{1a4b2f2f-edfa-4086-87f1-482695f50b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SplashScene">
+      <UniqueIdentifier>{ad7a01a4-e7cf-44a3-804f-d96545edce0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene">
+      <UniqueIdentifier>{6ecbf503-5139-47ac-bde5-3b5fc32978d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\FileSetPos">
+      <UniqueIdentifier>{a32fefe8-79f5-4b6d-be77-3f470d66fc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene\ToolBar">
+      <UniqueIdentifier>{80b65d90-2f12-4d2b-b015-ba6aa82e24bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene\TopBar">
+      <UniqueIdentifier>{cbc8241d-f5ad-469a-9a69-ca3be095581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene\PlayBoard">
+      <UniqueIdentifier>{d4825f21-53b9-4155-bb1e-c11b1453cbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0c876962-1797-4f63-b3af-a936aea2d34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Block">
+      <UniqueIdentifier>{232851b2-22c4-48ef-9220-674585983847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Save">
+      <UniqueIdentifier>{4b54c5a9-e2f2-4031-89c4-30bf3081f588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Load">
+      <UniqueIdentifier>{9be4a472-03a8-4916-b667-3d4191b18728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PopUP">
+      <UniqueIdentifier>{214556ab-fdcc-46ba-8086-4dfa8ca0fcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PopUP\NewFile">
+      <UniqueIdentifier>{5753f0ab-21c3-4732-9426-5eeacd4286a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PopUP\SaveFile">
+      <UniqueIdentifier>{bfe870a6-bac3-4ed9-a965-94ea41092aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PopUP\LoadFile">
+      <UniqueIdentifier>{52ba9800-86f3-411e-8286-f88e84945ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\StikPannel">
+      <UniqueIdentifier>{1659024d-e470-4b35-aa62-804890c61624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\BroadCast">
+      <UniqueIdentifier>{4acd7817-f214-489b-99a4-e72a2f71c912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\StikPannel\Block">
+      <UniqueIdentifier>{e67b50c5-5b73-48c5-9e8a-d4866d589b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\StikPannel\Piece">
+      <UniqueIdentifier>{b4a29520-08c3-412f-9b4f-93ec159161f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\PathManager">
+      <UniqueIdentifier>{42959e0a-102f-44b5-8f49-fe3f2da443a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Debug">
+      <UniqueIdentifier>{fe4efff1-8fd5-4c1d-9ac4-2638aff137e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\ToolBtn">
+      <UniqueIdentifier>{9e4470d1-1450-4442-8d49-0967930447d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene\RightTool">
+      <UniqueIdentifier>{f237a1cd-18e0-4b5c-a862-5465381e4b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\WorkSpaceScene\TopBar\NewFilter1">
+      <UniqueIdentifier>{da207c4b-b1eb-48fd-95d8-2440a144d296}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Engine\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="ISceneNode.cpp">
+      <Filter>Engine\ISceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Engine\SpriteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Engine\GUIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCusor.cpp">
+      <Filter>Engine\Cusor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditText.cpp">
+      <Filter>Engine\EditText</Filter>
+    </ClCompile>
+    <ClCompile Include="Drag.cpp">
+      <Filter>Engine\Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>Engine\Wheel</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScene.cpp">
+      <Filter>Scene\SplashScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\WorkSpaceScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPos.cpp">
+      <Filter>Engine\FileSetPos</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBar.cpp">
+      <Filter>Scene\WorkSpaceScene\ToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="TopBar.cpp">
+      <Filter>Scene\WorkSpaceScene\TopBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayBoard.cpp">
+      <Filter>Scene\WorkSpaceScene\PlayBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Util\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Save.cpp">
+      <Filter>Util\Save</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Util\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFile.cpp">
+      <Filter>Scene\PopUP\NewFile</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFile.cpp">
+      <Filter>Scene\PopUP\LoadFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveFile.cpp">
+      <Filter>Scene\PopUP\SaveFile</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadCast.cpp">
+      <Filter>Util\BroadCast</Filter>
+    </ClCompile>
+    <ClCompile Include="StikPannel_Block.cpp">
+      <Filter>Util\StikPannel\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="StikPannel_Piece.cpp">
+      <Filter>Util\StikPannel\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Util\PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugFile.cpp">
+      <Filter>Util\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBtn.cpp">
+      <Filter>Util\ToolBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTool.cpp">
+      <Filter>Scene\WorkSpaceScene\RightTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>Scene\WorkSpaceScene\TopBar\NewFilter1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Engine\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>Engine\ISceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Engine\SpriteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Engine\GUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCusor.h">
+      <Filter>Engine\Cusor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>Engine\EditText</Filter>
+    </ClInclude>
+    <ClInclude Include="Drag.h">
+      <Filter>Engine\Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>Engine\Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene.h">
+      <Filter>Scene\SplashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\WorkSpaceScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPos.h">
+      <Filter>Engine\FileSetPos</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBar.h">
+      <Filter>Scene\WorkSpaceScene\ToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="TopBar.h">
+      <Filter>Scene\WorkSpaceScene\TopBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayBoard.h">
+      <Filter>Scene\WorkSpaceScene\PlayBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Util\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Save.h">
+      <Filter>Util\Save</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Util\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFile.h">
+      <Filter>Scene\PopUP\NewFile</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFile.h">
+      <Filter>Scene\PopUP\LoadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFile.h">
+      <Filter>Scene\PopUP\SaveFile</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadCast.h">
+      <Filter>Util\BroadCast</Filter>
+    </ClInclude>
+    <ClInclude Include="StikPannel_Block.h">
+      <Filter>Util\StikPannel\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="StikPannel_Piece.h">
+      <Filter>Util\StikPannel\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Util\PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugFile.h">
+      <Filter>Util\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBtn.h">
+      <Filter>Util\ToolBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTool.h">
+      <Filter>Scene\WorkSpaceScene\RightTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>Scene\WorkSpaceScene\TopBar\NewFilter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameFrameWork.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{525312db-8c19-4b96-8a5a-34e623389f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{33d26bfd-d314-441b-9e6f-931789c6f933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{c042f312-6f9d-4056-9a2e-5a016b465906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SpriteManager">
+      <UniqueIdentifier>{687f706d-061b-4a3d-b1a3-47e4f4a9e7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TextureManager">
+      <UniqueIdentifier>{1ffd3d12-9eea-4e6a-b9da-25433c5d9687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ISceneNode">
+      <UniqueIdentifier>{e103664b-02d2-42b6-b212-9ce8543eb647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputManager">
+      <UniqueIdentifier>{706acb94-2229-46af-9e41-a991006959cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Function">
+      <UniqueIdentifier>{eadf6951-8b5b-43c8-93cc-90c18fe1564f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Console">
+      <UniqueIdentifier>{a7b0c703-bc6f-471f-b018-ffe5d13783f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Application">
+      <UniqueIdentifier>{8cd4bddb-1693-4516-864a-9a36cd89d16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation">
+      <UniqueIdentifier>{e379b1fd-8bdc-4f34-be99-baa6256363ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GUIButton">
+      <UniqueIdentifier>{c9685d4f-e44f-4dd5-9706-7a6f0fd61207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Font">
+      <UniqueIdentifier>{46ed36a0-cb14-4632-956a-f8c3e762da19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Cusor">
+      <UniqueIdentifier>{f6cd78ed-7216-42ac-90b9-05f5d5b1e68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\EditText">
+      <UniqueIdentifier>{bc833bb4-9c87-4a81-87bb-f05a049084dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{34d5b257-f38f-45c1-9b6e-9b58966f1535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{5176a937-0ee7-4b82-9666-31abfd9363ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Drag">
+      <UniqueIdentifier>{5e6f515d-65e0-4405-ad40-89601b6f53fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Wheel">
+      <UniqueIdentifier>{1a4b2f2f-edfa-4086-87f1-482695f50b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SplashScene">
+      <UniqueIdentifier>{85e2b841-3610-4efd-ac36-654a507498f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{527f1b1f-0a5a-4259-a6f3-4938f5b03d60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Engine\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Engine\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="ISceneNode.cpp">
+      <Filter>Engine\ISceneNode</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Engine\SpriteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Engine\GUIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCusor.cpp">
+      <Filter>Engine\Cusor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditText.cpp">
+      <Filter>Engine\EditText</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Drag.cpp">
+      <Filter>Engine\Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="Wheel.cpp">
+      <Filter>Engine\Wheel</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScene.cpp">
+      <Filter>Scene\SplashScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Engine\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>Engine\ISceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Engine\SpriteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Engine\GUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCusor.h">
+      <Filter>Engine\Cusor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditText.h">
+      <Filter>Engine\EditText</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Drag.h">
+      <Filter>Engine\Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheel.h">
+      <Filter>Engine\Wheel</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene.h">
+      <Filter>Scene\SplashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
